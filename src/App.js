@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from './components/layouts/Navbar'
+import UserItem from './components/users/UserItem'
 import './App.css'
 
 class App extends React.Component {
   render() {
-    const name = 'john doe'
     return (
       <div className="App">
         <Navbar />
+        <UserItem />
       </div>
     )
   }
