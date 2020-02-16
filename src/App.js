@@ -4,11 +4,11 @@ import Users from './components/users/Users'
 import './App.css'
 
 class App extends React.Component {
-  render() {
+  render () {
     return (
-      <div className="App">
+      <div className='App'>
         <Navbar />
-        <div className="container">
+        <div className='container'>
           <Users />
         </div>
       </div>
